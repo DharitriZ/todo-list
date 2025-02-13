@@ -1,0 +1,44 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight:bold;
+    background-image: url(todoBg.png);
+}
+
+.icon {
+    margin-left: 10px;
+    width: 50px;
+    font-size: 28px;
+    border: none;
+    background: none;
+
+}
+
+li {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.done{
+    text-decoration: line-through;
+    color: red;
+}
+
+.btn{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+input {
+    margin-bottom: auto;
+}
+.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 0;
+    margin-left: 40px;
+    font-style: normal;
+    font-weight: lighter;
+
+}
